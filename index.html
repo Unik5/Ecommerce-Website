@@ -1,39 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Furniro</title>
+  </head>
+  <body class="font-[Poppins]">
+    <nav class="flex justify-between pl-15 pr-15 pt-5 pb-5">
+      <div class="logo flex items-center">
+        <img src="./images/furniro-logo.svg" alt="" />
+        <h1 class="text-4xl font-[Montserrat] font-[400]">Furniro</h1>
+      </div>
+      <div class="max-sm:hidden">
+        <ul
+          class="navigation flex font-[300] text-[1rem] justify-around items-center gap-5 tracking-wider mt-1.5"
+        >
+          <li><a href="">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="icon-navigation flex justify-around items-center gap-5">
+        <a href=""
+          ><img src="./images/icons/profile-icon.svg" alt="" class="w-5 h-5"
+        /></a>
+        <a href=""
+          ><img src="./images/icons/search-icon.svg" alt="" class="w-5 h-5"
+        /></a>
+        <a href=""
+          ><img src="./images/icons/fav-icon.svg" alt="" class="w-5 h-5"
+        /></a>
+        <a href=""
+          ><img src="./images/icons/cart-icon.svg" alt="" class="w-5 h-5"
+        /></a>
+      </div>
+    </nav>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="./src/output.css" rel="stylesheet" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet" />
-  <title>Document</title>
-</head>
-
-<body>
-  <nav class="flex justify-between pl-15 pr-15">
-    <div class="logo flex items-center">
-      <img src="./images/furniro-logo.svg" alt="" />
-      <h1 class="text-3xl font-[Montserrat]">Furniro</h1>
-    </div>
-    <div>
-      <ul class="navigation flex font-[Poppins justify-around items-center gap-5">
-        <li><a href="">Home</a></li>
-        <li><a href="">Shop</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Contact</a></li>
-      </ul>
-    </div>
-    <div class="icon-navigation flex justify-around items-center">
-      <img src="./images/icons/profile-icon.svg" alt="" class="w-5 h-5" />
-      <img src="./images/icons/search-icon.svg" alt="" class="w-5 h-5" />
-      <img src="./images/icons/fav-icon.svg" alt="" class="w-5 h-5" />
-      <img src="./images/icons/cart-icon.svg" alt="" class="w-5 h-5" />
-    </div>
-  </nav>
-</body>
-
+    <header
+      class="bg-no-repeat bg-cover bg-center bg-[url('../images/background-1.png')] h-screen flex justify-end items-center max-lg:justify-center"
+    >
+      <div
+        class="container w-[47%] h-[68%] bg-[#FFF3E3] mr-15 mt-[-55px] max-lg:w-[80%] max-lg:mr-0 max-lg:h-[55%]"
+      >
+        <p>New Arrival</p>
+        <h1>Discover Our</h1>
+        <h1>New Collection</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero
+          doloribus distinctio nobis obcaecati delectus eaque?
+        </p>
+        <button>Buy Now</button>
+      </div>
+    </header>
+  </body>
 </html>
